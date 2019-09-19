@@ -7,8 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Проект</title>
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="build/style.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/main.css"/>
 </head>
 
 <body>
@@ -37,11 +37,11 @@
 
     <blockquote>
         <h2><b>Добро пожаловать!</b><br></h2>
-            <p>Cumque dolorem eum harum laudantium libero molestias saepe soluta?<br> Facere minima optio perferendis
-                quibusdam quis reprehenderit, saepe!<br> Debitis enim optio saepe voluptatibus.</p>
-            <p>Cumque dolorem eum harum laudantium libero molestias saepe soluta?<br> Facere minima optio perferendis
-                quibusdam quis reprehenderit, saepe!<br> Debitis enim optio saepe voluptatibus.</p>
-        
+        <p>Cumque dolorem eum harum laudantium libero molestias saepe soluta?<br> Facere minima optio perferendis
+            quibusdam quis reprehenderit, saepe!<br> Debitis enim optio saepe voluptatibus.</p>
+        <p>Cumque dolorem eum harum laudantium libero molestias saepe soluta?<br> Facere minima optio perferendis
+            quibusdam quis reprehenderit, saepe!<br> Debitis enim optio saepe voluptatibus.</p>
+
     </blockquote>
 
 
@@ -51,106 +51,119 @@
     <div>
         <img src="images/b2_icon_1.jpg" alt="Ааа, не загрузилась первая страница, спаситеееее, памагитиии">
         <h3><b>Большие экраны</b></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. At autem cum dolores dolorum eius<br> error
-                expedita illum itaque molestiae mollitia nemo,<br> nostrum officia quas ratione tempora temporibus<br>
-                veritatis vero voluptates.</p>
-        
+        <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. At autem cum dolores dolorum eius<br> error
+            expedita illum itaque molestiae mollitia nemo,<br> nostrum officia quas ratione tempora temporibus<br>
+            veritatis vero voluptates.</p>
+
 
         <img src="images/b2_icon_2.jpg" alt="Мей а хев юр аттеншн плиз, не загрузилась вторая картинка не загрузилась">
         <h3><b>Объемный звук</b></h3>
         <p>Lorem ipsum dolor sit amet.</p>
-        
+
 
         <img src="images/b2_icon_3.jpg" alt="Не, ну нефига се, третья картинка не загрузилась...">
         <h3><b>Удобные кресла</b></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. At autem cum dolores dolorum eius<br> error
-                expedita illum itaque molestiae mollitia nemo,<br> nostrum officia quas ratione tempora temporibus<br>
-                veritatis vero voluptates.</p>
-        
+        <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. At autem cum dolores dolorum eius<br> error
+            expedita illum itaque molestiae mollitia nemo,<br> nostrum officia quas ratione tempora temporibus<br>
+            veritatis vero voluptates.</p>
+
     </div>
 
 
-    
 
-    <table align="center" border="2" cellspacing="5" cellpadding="10">
-    <caption><h2><strong>Выберите фильм</strong><br></h2></caption>     
-        
-        <thead>
-            <tr><th><b>Начало сеанса</b></th><th><b> Название фильма</b></th><th><b> Жанр</b></th></tr><br>
-        </thead>
-            
-        
-        <tr>
-            <td>10:00</td><td> Собачья жизнь 2</td><td> фантастика, боевик, приключения<br></td>
-        </tr>
-        <tr>
-            <td>12:00</td><td> Человек-паук</td><td> драма, комедия<br></td>
-        </tr>
-        <tr>
-            <td>14:00</td><td> История игрушек 4</td><td> мультфильм, фэнтези, комедия<br></td>
-        </tr>
-        <tfoot>
-            <tr>
-            <td>16:00</td><td> Люди в черном: Интернэшнл</td><td> фантастика, боевик, комедия<br></td>
-            </tr>
-        </tfoot>
-        
-    </table>
+    <div class="movie-list">
+        <div class="container">
+            <h2 class="movie-list__header">
+                Выберите фильм
+            </h2>
+            <table class="movie-list__table">
+                <thead>
+                    <tr>
+                        <th>Начало сеанса</th>
+                        <th>Название фильма</th>
+                        <th>Жанр</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>10:00</td>
+                    <td> Собачья жизнь 2</td>
+                    <td> фантастика, боевик, приключения</td>
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                    <td> Человек-паук</td>
+                    <td> драма, комедия</td>
+                </tr>
+                <tr>
+                    <td>14:00</td>
+                    <td> История игрушек 4</td>
+                    <td> мультфильм, фэнтези, комедия</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td>16:00</td>
+                        <td> Люди в черном: Интернэшнл</td>
+                        <td> фантастика, боевик, комедия</td>
+                    </tr>
+                </tfoot>
 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eum facere obcaecati quam rem
-            repellendus veritatis. Aliquam beatae,<br> delectus dignissimos enim exercitationem mollitia nisi
-            pariatur quaerat quam, qui quibusdam sunt!
+            </table>
+        </div>
+    </div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eum facere obcaecati quam rem
+    repellendus veritatis. Aliquam beatae,<br> delectus dignissimos enim exercitationem mollitia nisi
+    pariatur quaerat quam, qui quibusdam sunt!
 
 
     <div>
         <img src="images/b4_img.jpg" alt="Вау, коробка не загрузилсь, а там подарки между прочим...">
         <h2><br><b>Подарок каждому!</b><br><br></h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate
-                excepturi expedita libero mollitia<br> nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi
-                sint, tenetur unde velit veniam! Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Ab
-                aperiam aspernatur, cum, cupiditate excepturi expedita libero mollitia nesciunt nihil nobis<br>
-                obcaecati quasi ratione reprehenderit sequi sint, tenetur unde velit veniam!<br><br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate
-                excepturi expedita libero mollitia<br> nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi
-                sint, tenetur unde velit veniam!<br><br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate
-                excepturi expedita libero mollitia<br> nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi
-                sint, tenetur unde velit veniam!<br><br>
-            </p>
-            <nav> <a href="#top">
-                    Получить подарок<br><br></a></nav>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate
+            excepturi expedita libero mollitia<br> nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi
+            sint, tenetur unde velit veniam! Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Ab
+            aperiam aspernatur, cum, cupiditate excepturi expedita libero mollitia nesciunt nihil nobis<br>
+            obcaecati quasi ratione reprehenderit sequi sint, tenetur unde velit veniam!<br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate
+            excepturi expedita libero mollitia<br> nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi
+            sint, tenetur unde velit veniam!<br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate
+            excepturi expedita libero mollitia<br> nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi
+            sint, tenetur unde velit veniam!<br><br>
+        </p>
+        <nav> <a href="#top">
+                Получить подарок<br><br></a></nav>
 
-        
+
     </div>
 
     <div>
         <h2><b>Фильмы</b></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias, animi, commodi eius
-                ipsum,<br> laudantium neque nihil omnis perferendis sed sequi tempore! Ad ea esse ex inventore
-                repudiandae, suscipit!<br><br></p>
-        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias, animi, commodi eius
+            ipsum,<br> laudantium neque nihil omnis perferendis sed sequi tempore! Ad ea esse ex inventore
+            repudiandae, suscipit!<br><br></p>
+
     </div>
 
     <p>
         <ul>
             <li><b>Человек-паук</b><br>
                 <img src="images/mov1.jpg" alt="Человек-паук" title="Человек-паук">
-            Lorem ipsum dolor sit amet,<br> consectetur<br></li>
+                Lorem ipsum dolor sit amet,<br> consectetur<br></li>
             <li><b>Собачья жизнь 2</b><br>
                 <img src="images/mov2.jpg" alt="Собачья жизнь 2" title="Собачья жизнь 2">
-            Lorem ipsum dolor sit amet,<br> consectetur<br></li>
+                Lorem ipsum dolor sit amet,<br> consectetur<br></li>
             <li><b>Люди в черном: Интернэшнл</b><br>
                 <img src="images/mov3.jpg" alt="Люди в черном: Интернэшнл" title="Люди в черном: Интернэшнл">
-            Lorem ipsum dolor sit amet,<br> consectetur<br></li>
+                Lorem ipsum dolor sit amet,<br> consectetur<br></li>
         </ul>
     </p>
 
-    
+
     <footer>
         <img src="images/1920x450.png" alt="какая-то заготовка на полстраницы не загрузилась...">
         <form action="/order.php">
             <div>
-                <input type="text" name="clientName" value="" placeholder="Имя*" >
+                <input type="text" name="clientName" value="" placeholder="Имя*">
             </div>
             <div>
                 <select name="" id="">
@@ -184,9 +197,9 @@
             <div>
                 <input type="file">
             </div>
-            <button type="submit">Отправить</button>    
+            <button type="submit">Отправить</button>
 
-            </form>
+        </form>
     </footer>
 
 </body>
