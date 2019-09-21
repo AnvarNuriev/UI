@@ -41,7 +41,15 @@ font-family: "Roboto", sans-serif;
 .movie-list__table th {
     font-size: 30px;
     font-weight: 700;
+    
     color: #ffffff;
     background: #a3cc40;
+    padding: 17px 0;
+}
+.movie-list__table td {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #4b4d4f;
     padding: 17px 0;
 }
